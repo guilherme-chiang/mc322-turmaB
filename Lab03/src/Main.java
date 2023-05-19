@@ -52,7 +52,7 @@ public class Main {
 				inputCliente(seguradora);
 
 				break;
-				
+
 			case "2":
 				inputRemoverCliente(seguradora);
 
@@ -82,11 +82,11 @@ public class Main {
 				System.out.print("\n");
 				seguradora.listarClienteSimples("CPF");
 				seguradora.listarClienteSimples("CNPJ");
-				
+
 				System.out.print("Digite o CPF ou CNPJ do cliente: ");
 				String lerSinistro = ler.nextLine();
 				System.out.print("\n");
-				
+
 				seguradora.visualizarSinistro(lerSinistro);
 
 				break;
@@ -486,5 +486,4 @@ public class Main {
 		seguradora.cadastrarCliente(clienteOF3);
 
 	}
-
 }
